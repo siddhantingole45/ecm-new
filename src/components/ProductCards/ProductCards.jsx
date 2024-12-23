@@ -13,7 +13,7 @@ function ProductCards() {
     { id: 6, name: "Brown Kalamkari Chhap Suit Set", image: "https://ambraee.com/cdn/shop/products/Project_20230221_0285.jpg?v=1691225006&width=720", price: "$80" },
     { id: 7, name: "Casual Top", image: "https://ambraee.com/cdn/shop/products/Project_20230411_0518.jpg?v=1691230287&width=720", price: "$30" },
     { id: 8, name: "Rama Sequin Suit Set", image: "https://ambraee.com/cdn/shop/files/035A6935.webp?v=1694066776&width=900", price: "$80" },
-    { id: 8, name: "Isha Top", image: "https://cdn.shopify.com/s/files/1/0797/2284/0358/files/Untitled-2_be39293f-1ec1-45f2-9b9b-1f9b73f8ffb9_360x.webp?v=1726132819", price: "$80" },
+    { id: 9, name: "Isha Top", image: "https://cdn.shopify.com/s/files/1/0797/2284/0358/files/Untitled-2_be39293f-1ec1-45f2-9b9b-1f9b73f8ffb9_360x.webp?v=1726132819", price: "$80" }
   ];
 
 
