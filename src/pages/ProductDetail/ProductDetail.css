@@ -1,0 +1,38 @@
+/* ProductDetail.css */
+.product-detail {
+    padding: 2rem;
+  }
+  
+  .main-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: black;
+  }
+  
+  .similar-items {
+    margin-top: 2rem;
+  }
+  
+  .similar-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .card {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

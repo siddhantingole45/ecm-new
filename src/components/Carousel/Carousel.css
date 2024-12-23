@@ -1,0 +1,20 @@
+.carousel-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #ff4081;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d81b60;
+}
