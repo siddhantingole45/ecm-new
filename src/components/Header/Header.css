@@ -1,38 +1,45 @@
 .header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #f8bbd0;
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .header-left {
-    width: 24px;
-    height: 24px;
-    margin-right: 1rem;
-    display: flex;
-  }
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1rem 2rem;
+  background-color: #f8bbd0;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
 
-  .icon{
-    padding: 5px;
-  }
-  
-  .header-center {
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding-left: 110px;
-  }
-  
-  .header-right .search-bar {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 60px;
-  }
+.header-left {
+  display: flex;
+  gap: 1rem; /* Space between icons */
+}
 
-  span{
-    font-style: italic;
-    font-weight: 100;
-    font-size: x-large;
-  }
+.icon {
+  padding: 5px;
+  font-size: 2.5rem; /* Increase icon size */
+}
+
+.header-center {
+  flex-grow: 1; /* Take available space to center-align */
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header-center span {
+  font-style: italic;
+  font-weight: 100;
+  font-size: x-large;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end; /* Align search bar to the right */
+}
+
+.header-right .search-bar {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  width: 300px; /* Increase width of the search bar */
+  font-size: 1rem; /* Optional: Increase font size inside the search bar */
+}
