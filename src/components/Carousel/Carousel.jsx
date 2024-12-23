@@ -8,6 +8,8 @@ function Carousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,            
+    autoplaySpeed: 3000,       
     appendDots: (dots) => (
       <div>
         <ul style={{ margin: "0px", padding: "0px" }}> {dots} </ul>
