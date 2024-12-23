@@ -2,7 +2,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './ProductDetail.css';
-import SimilarItems from '../../components/SimilarItems/Similaritems';
+import SimilarItems from '../../components/SimilarItems/SimilarItems';
 
 const productData = [
   {

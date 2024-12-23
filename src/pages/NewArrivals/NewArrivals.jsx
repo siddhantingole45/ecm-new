@@ -1,6 +1,6 @@
 import Categories from "../../components/Categories/Categories";
 import "./NewArrivals.css";
-import SimilarItems from "../../components/SimilarItems/Similaritems";
+import SimilarItems from "../../components/SimilarItems/SimilarItems";
 
 const NewArrivals = () => {
   const products = [

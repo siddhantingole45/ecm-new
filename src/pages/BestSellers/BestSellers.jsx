@@ -1,5 +1,5 @@
 import Categories from "../../components/Categories/Categories";
-import SimilarItems from "../../components/SimilarItems/Similaritems";
+import SimilarItems from "../../components/SimilarItems/SimilarItems";
 import "./BestSellers.css";
 
 const BestSellers = () => {
