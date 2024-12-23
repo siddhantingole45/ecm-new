@@ -1,5 +1,5 @@
   import Categories from "../../components/Categories/Categories";
-// import SimilarItems from "../../components/SimilarItems/Similaritems";
+import SimilarItems from "../../components/SimilarItems/Similaritems";
   import "./TopsAndShirts.css";
   
   const TopsAndShirts = () => {
@@ -23,7 +23,7 @@
             </div>
           ))}
         </div>
-        {/* <SimilarItems/> */}
+        <SimilarItems/>
 
       </div>
     );
