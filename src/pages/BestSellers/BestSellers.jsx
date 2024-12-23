@@ -1,5 +1,5 @@
 import Categories from "../../components/Categories/Categories";
-import SimilarItems from "../../components/SimilarItems/Similaritems";
+// import SimilarItems from "../../components/SimilarItems/Similaritems";
 import "./BestSellers.css";
 
 const BestSellers = () => {
@@ -23,7 +23,7 @@ const BestSellers = () => {
           </div>
         ))}
       </div>
-      <SimilarItems/>
+      {/* <SimilarItems/> */}
 
     </div>
   );
