@@ -33,13 +33,13 @@
 
 .header-right {
   display: flex;
-  justify-content: flex-end; /* Align search bar to the right */
+  justify-content: flex-end; 
 }
 
 .header-right .search-bar {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 60px;
-  width: 300px; /* Increase width of the search bar */
-  font-size: 1rem; /* Optional: Increase font size inside the search bar */
+  width: 300px; 
+  font-size: 1rem; 
 }

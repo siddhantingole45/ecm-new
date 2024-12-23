@@ -1,0 +1,51 @@
+
+.similar-items {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .similar-items h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .similar-items-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .similar-item-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .similar-item-card:hover {
+    transform: scale(1.05);
+    background-color: #f8bbd0;
+  }
+  
+  .similar-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .similar-item-card h3 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .similar-item-card p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    color: #333;
+  }
+  

@@ -1,5 +1,6 @@
 import Categories from "../../components/Categories/Categories";
 import "./NewArrivals.css";
+import SimilarItems from "../../components/SimilarItems/Similaritems";
 
 const NewArrivals = () => {
   const products = [
@@ -8,6 +9,7 @@ const NewArrivals = () => {
     { name: "Chic Evening Gown", image: "https://cdn.shopify.com/s/files/1/0797/2284/0358/files/JBL07470_360x.jpg?v=1720686644", price: "$90" },
     { name: "Blue Ikat Top", image: "https://cdn.shopify.com/s/files/1/0797/2284/0358/files/3_ac6d8ed6-e9dc-434b-99c1-a54b7abd80de_360x.webp?v=1709016300", price: "$35" },
   ];
+
 
   return (
     <div className="new-arrivals-page">
@@ -22,6 +24,7 @@ const NewArrivals = () => {
           </div>
         ))}
       </div>
+      <SimilarItems/>
     </div>
   );
 };
